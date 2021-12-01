@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo PC Computadoras</title>
+    <link rel="icon" type="image/x-icon" href="img/faLogo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/magnific-popup.min.css" rel="stylesheet" />
+    <link href="slick/slick.css" rel='stylesheet' />
+    <link href="slick/slick-theme.css" rel='stylesheet' />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/templatemo-real-dynamic.css" rel="stylesheet" />
+<!--
+
+TemplateMo 547 Real Dynamic
+
+https://templatemo.com/tm-547-real-dynamic
+
+-->
+</head>
+
+<body onkeydown="javascript:Disable_Control_C()">
+    <div class="tm-container">
+        <!-- <div class="tm-site-header"></div> --> <!-- tm-site-header -->
+        <div class="tm-site-header-overlay">
+            <div class="tm-header-stripe ml-auto"></div>
+            <!-- <div class="tm-header-stripe tm-header-stripe-short ml-auto"></div> -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 tm-site-header-left">
+                        <img srcset="img/Logo.png 1200w" sizes="(max-width: 320px) 480px,
+                        (max-width: 480px) 800px,
+                        1200px" alt="Logo" class="rounded d-block">
+                        <!--
+                        <h1 class="text-uppercase tm-site-name">TodoPc</h1>
+                        <p class="text-white mb-0 tm-site-desc">Todo para tu computadora</p>
+                        -->
+                    </div>
+                    <div class="col-lg-8 tm-site-header-right">
+                        <!--Navbar-->
+                        <nav class="navbar navbar-expand-lg">
+
+                            <!-- Collapse button -->
+                            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+                                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fas fa-bars text-white"></i></span></button>
+
+                            <!-- Collapsible content -->
+                            <div class="collapse navbar-collapse tm-nav" id="navbarNav">
+                                <!-- Links -->
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="about.html">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link tm-nav-link" href="#">Productos<span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="contact.html">Contacto</a>
+                                    </li>
+                                </ul>
+                                <!-- Links -->
+                            </div>
+                            <!-- Collapsible content -->
+                        </nav>
+                        <!--/.Navbar-->
+                    </div> <!-- col -->
+                </div> <!-- row -->
+            </div> <!-- container fluid -->
+        </div> <!-- tm-site-header-overlay -->
+        <div class="tm-header-stripe w-100"></div>
+    </div>
+    <!--
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/real-dynamic-banner-01" class="d-block w-100" alt="..." width="1000" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="img/real-dynamic-banner-02" class="d-block w-100" alt="..." width="1000" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="img/real-dynamic-banner-03" class="d-block w-100" alt="..." width="1000" height="500">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Atras</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+        -->
+    <div class="tm-container bg-white">
+        <div class="container-fluid">
+            <div class="row tm-mb-1">
+                <div class="col-12">
+                    <h2 class="tm-text-primary text-center tm-my-1 tm-mb-5 tm-intro-text">Nuestros productos</h2>
+                </div>
+                <div class="col-12 tm-page-cols-container">
+                    <div class="tm-page-col-left">
+                        <ul class="tabs clearfix filters-button-group">
+                            <li>
+                                <a href="#" class="active tm-category-link" data-filter=".category-1">
+                                    <div class="tm-thumbnails">
+                                        <img src="img/productos/PC1.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="img/productos/PC2.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="img/productos/PC3.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="img/productos/PC4.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                    </div>
+                                    <span class="tm-category-label">Computadoras</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tm-category-link" data-filter=".category-2">
+                                    <div class="tm-thumbnails">
+                                        <img src="img/productos/OT1.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="img/productos/OT2.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="img/productos/OT3.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="img/productos/OT4.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                    </div>
+                                    <span class="tm-category-label">Varios</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="tm-category-link" data-filter=".category-3">
+                                    <div class="tm-thumbnails">
+                                        <img src="img/productos/ACC1.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="img/productos/ACC2.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="img/productos/ACC3.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                        <img src="img/productos/ACC4.jpeg" alt="Thumbnail" class="tm-thumbnail">
+                                    </div>
+                                    <span class="tm-category-label">Accesorios</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                
+                    <!-- Computadoras-->
+                    <div class="tm-page-col-right">
+                        <div class="tm-gallery" id="tmGallery">
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/PC1.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>LapTop <span>UNO</span></h2>
+                                        <p>Lenovo TinkPad L560</p>
+                                        <a href="img/productos/PC1.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/PC2.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>PC Escritorio <span></span></h2>
+                                        <p>Computadora Outlet Core Duo</p>
+                                        <a href="img/productos/PC2.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/PC3.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>PC Escritorio <span></span></h2>
+                                        <p>computadora Outlet Core I3</p>
+                                        <a href="img/productos/PC3.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/PC4.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>LapTop <span></span></h2>
+                                        <p>GHIA Libero</p>
+                                        <a href="img/productos/PC4.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/PC5.jpeg" alt="Computadoras" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>LapTop <span></span></h2>
+                                        <p>Lanix Neuron G6</p>
+                                        <a href="img/productos/PC5.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-1">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/PC6.jpeg" alt="Computadoras" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>LapTop<span>Four</span></h2>
+                                        <p>LENOVO Ideapad S145-14AST</p>
+                                        <a href="img/productos/PC6.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                
+                            <!-- Otros -->
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/OT1.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Varios <span></span></h2>
+                                        <p>Bafle Amplificado Recargable</p>
+                                        <a href="img/productos/OT1.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/OT2.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Varios <span></span></h2>
+                                        <p>Memoria Micro SD 32GB</p>
+                                        <a href="img/productos/OT2.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/OT3.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Varios <span></span></h2>
+                                        <p>Memoria USB 32GB</p>
+                                        <a href="img/productos/OT3.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/OT4.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Varios <span></span></h2>
+                                        <p>Caja de Cubrebocas</p>
+                                        <a href="img/productos/OT4.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/OT5.jpeg" alt="Varios" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Varios <span></span></h2>
+                                        <p>Fire tv Stick</p>
+                                        <a href="img/productos/OT5.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-2">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/OT6.jpeg" alt="Varios" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Varios <span></span></h2>
+                                        <p>Disco Duro Externo 2TB</p>
+                                        <a href="img/productos/OT6.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                
+                            <!-- Accesorios -->
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/ACC1.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Accesorios <span></span></h2>
+                                        <p>Camara WEB logitech C220</p>
+                                        <a href="img/productos/ACC1.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/ACC2.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Accesorios <span></span></h2>
+                                        <p>Camara WEB Quaroni 720p</p>
+                                        <a href="img/productos/ACC2.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/ACC3.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Accesorios <span></span></h2>
+                                        <p>Teclado GAMER de Membrana</p>
+                                        <a href="img/productos/ACC3.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/ACC4.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Accesorios <span></span></h2>
+                                        <p>Microfono OCELOT OGMIC-01</p>
+                                        <a href="img/productos/ACC4.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/ACC5.jpeg" alt="Gallery item" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Accesorios <span></span></h2>
+                                        <p>SSD Adata 120GB</p>
+                                        <a href="img/productos/ACC5.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="tm-gallery-item category-3">
+                                <figure class="effect-bubba">
+                                    <img src="img/productos/ACC6.jpeg" alt="Accesorios" class="img-fluid" />
+                                    <figcaption>
+                                        <h2>Accesorios <span></span></h2>
+                                        <p>Teclado y Raton Ergonomico</p>
+                                        <a href="img/productos/ACC6.jpeg">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--
+            <div class="row tm-mb-7">
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-5">
+                    <h3 class="tm-text-primary tm-mb-4">Useful Readings</h3>
+                    <nav class="tm-nav-secondary">
+                        <ul>
+                            <li><a href="#">Laoreet eget justo</a></li>
+                            <li><a href="#">Rhoncus volupat turpi</a></li>
+                            <li><a href="#">Nulla euismod erat</a></li>
+                            <li><a href="#">Donc a laoreet ipsum</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-5">
+                    <h3 class="tm-text-primary tm-mb-4">Our Pages</h3>
+                    <nav class="tm-nav-secondary">
+                        <ul>
+                            <li><a href="#">Background</a></li>
+                            <li><a href="#">Our Mission</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Features</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-5">
+                    <h3 class="tm-text-primary tm-mb-4">Main Menu</h3>
+                    <nav class="tm-nav-secondary">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-5">
+                    <h3 class="tm-text-primary tm-mb-4">About Real Dynamic</h3>
+                    <p class="tm-mb-4">Ut non orci semper, semper velit sit amet, ornare velit. Vestibulum id ipsum et justo bibendum ornare id sit amet arcu. Integer placerat magna.</p>
+                    <div>
+                        <a href="https://youtube.com" class="tm-social-link"><i class="fab fa-youtube tm-social-icon"></i></a>
+                        <a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+                        <a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+                        <a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+            -->
+            <footer class="row">
+                <p class="mb-0 w-100 text-center col-12">
+
+                </p>
+            </footer>
+        </div> <!-- container-fluid -->
+    </div> <!-- tm-container -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/tooplate-script.js"></script>
+    <script>        
+        $(document).ready(function () {
+            /* Isotope Gallery */            
+            var $gallery = $(".tm-gallery").isotope({
+                itemSelector: ".tm-gallery-item",
+                filter: '.category-1'
+                // layoutMode: "fitRows"
+            });
+            // layout Isotope after each image loads
+            $gallery.imagesLoaded().progress(function () {
+                $gallery.isotope("layout");
+            });
+
+            $(".filters-button-group").on("click", "a", function () {
+                var filterValue = $(this).attr("data-filter");
+                $gallery.isotope({ filter: filterValue });
+            });
+
+            /* Categories */
+            $(".tabgroup > div").hide();
+            $(".tabgroup > div:first-of-type").show();
+            $(".tabs a").click(function (e) {
+                e.preventDefault();
+                var $this = $(this),
+                    tabgroup = "#" + $this.parents(".tabs").data("tabgroup"),
+                    others = $this
+                        .closest("li")
+                        .siblings()
+                        .children("a"),
+                    target = $this.attr("href");
+                others.removeClass("active");
+                $this.addClass("active");
+
+                // Scroll to tab content (for mobile)
+                if ($(window).width() < 992) {
+                    $("html, body").animate(
+                        {
+                            scrollTop: $("#tmGallery").offset().top
+                        },
+                        200
+                    );
+                }
+            });
+
+            // Magnific Pop up
+            $('.tm-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: { enabled: true }
+            });
+
+            // Testimonials carousel
+            $('.tm-carousel').slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+
+    <script type='text/javascript'>
+        document.oncontextmenu = function(){return false}
+    </script>
+
+    <script language="javascript">
+        function Disable_Control_C() {
+        var keystroke = String.fromCharCode(event.keyCode).toLowerCase();
+            if (event.ctrlKey && (keystroke == 'c' || keystroke == 'v')) {
+                event.returnValue = false; // disable Ctrl+C
+            }
+        }   
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
