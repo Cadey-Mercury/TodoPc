@@ -1,10 +1,16 @@
 RewriteEngine On
 
-ErrorDocument 404 https://todopc.com.mx/test/Sistema/404
+ErrorDocument 404 http://localhost/Sistema/404
+ErrorDocument 503 http://localhost/Sistema/503
+ErrorDocument 403 http://localhost/Sistema/403
+ErrorDocument 500 http://localhost/Sistema/500
+
+Options All -Indexes
 
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteRule ^([^/]+)$ $1.html [L,QSA]
+
 
 
 
